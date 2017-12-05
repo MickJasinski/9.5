@@ -1,8 +1,5 @@
-var btn = document.getElementsByClassName('button');
-var btnLength = btn.length;
+var buttons = document.getElementsByClassName('button');
 
-function btnloop(btn) {
-    for (var a = 0; a < btnLength; a++) {
-        alert(btn[a].innerText);
-    }
+for (var a = 0; a < buttons.length; a++) {
+    alert(buttons[a].innerText);
 }
